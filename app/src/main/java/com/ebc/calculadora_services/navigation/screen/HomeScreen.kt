@@ -81,7 +81,7 @@ fun HomeScreen(
             horizontalArrangement = Arrangement.SpaceBetween,
             verticalAlignment = Alignment.CenterVertically
         ) {
-            Text(text = "Opcional: escribe una propina persolanizada")
+            Text(text = "¿propina persolanizada?")
 
             Button(
                 onClick = viewModel::getRandomTip
